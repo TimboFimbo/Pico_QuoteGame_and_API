@@ -8,10 +8,11 @@ app = FastAPI()
 movie_list = []
 
 class Movie:
-    def __init__(self, title, year, director, quote = ""):
+    def __init__(self, title, year, director, stars, quote = ""):
         self.title = title
         self.year = year
         self.director = director
+        self.stars = stars
         self.quote = quote
 
 # change this path to that of the included movie_list.json file
@@ -19,7 +20,11 @@ with open('/home/timbo/src/Uvicorn/Pico_QuoteGame_and_API/movie_list.json', 'r')
     movie_json = json.load(infile)
 
 for movie in movie_json:
-    movie_list.append(Movie(movie['title'], movie['year'], movie['director'], movie['quote']))
+    print(movie['stars'][0])
+    star_list = []
+    for star in movie['stars']:
+        star_list.append(star)
+    movie_list.append(Movie(movie['title'], movie['year'], movie['director'], star_list, movie['quote']))
 
 @app.get("/movie/{movie_num}")
 def get_movie(movie_num: int = 0):
