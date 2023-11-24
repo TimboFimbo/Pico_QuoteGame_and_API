@@ -6,6 +6,7 @@ import ujson
 from urllib import urequest
 from picographics import PicoGraphics, DISPLAY_INKY_PACK
 from pimoroni import Button
+import random
 
 """
 Grab a random quote from the imdb quote api (see https://github.com/TimboFimbo/Pico_QuoteGame_and_API)
@@ -77,6 +78,7 @@ while True:
         title = data['title']
         year = data['year']
         director = data['director']
+        stars = data['stars']
         title_year = title + ' ' + year
         directed_by = 'Directed by ' + director
 
@@ -84,6 +86,7 @@ while True:
         print(title)
         print(year)
         print(director)
+        print(stars)
         
         ready_to_update = False
         last_update_time = time.time()
@@ -101,9 +104,13 @@ while True:
             graphics.update()
         if state == 'clue':
             clear()
+            clue_num = random.randrange(0, len(stars) + 1)
             graphics.set_pen(0)
             graphics.text("Here's a clue for you...", 85, 5, scale=1)
-            graphics.text(directed_by, 15, 40, wordwrap=WIDTH - 20, scale=2)
+            if clue_num == len(stars):
+                graphics.text(directed_by, 15, 40, wordwrap=WIDTH - 20, scale=2)
+            else:
+                graphics.text("Featuring " + stars[clue_num], 15, 40, wordwrap=WIDTH - 20, scale=2)
             graphics.text('Press A for the answer, or B to go back', 50, 120, scale=1)
             graphics.update()
         if state == 'answer':
@@ -125,9 +132,8 @@ while True:
                 state = 'quote'
                 changed_state = True
         if button_c.read():
-            if state != 'clue':
-                state = 'clue'
-                changed_state = True
+            state = 'clue'
+            changed_state = True
         
         if time.time() - last_update_time > TIME_TO_UPDATE:
             ready_to_update = True

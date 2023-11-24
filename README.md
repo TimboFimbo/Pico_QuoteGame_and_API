@@ -24,4 +24,4 @@ The Inky Pack appliction was adapted from the Pimoroni 'quote of the day' exampl
 
 Before use, check the comments in the scripts and replace the IP address and movie list file location where noted.
 
-Finally, this is just a test for now, as I'm currently a little hooked on the Pico and some of its add-ons. Now that this is working, I'm going to add more movies to the list and more clues to display for each. Oh, and you'll sometimes find a review quote about the movie instead of a quote from the movie itself - I need to go through and get rid of those.
+Finally, this is just a test for now, as I'm currently a little hooked on the Pico and some of its add-ons. Now that this is working, I'm going to add more movies to the list and more clues to display for each. Oh, and the scraper currently can't handle films with multiple directors, so I'll fix that if it needs to be run again. For now, I just fixed the few incorrect movie details by hand.
