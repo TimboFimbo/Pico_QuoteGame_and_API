@@ -104,10 +104,7 @@ while True:
             graphics.set_pen(0)
             graphics.text('Which movie is this quote from?...', 60, 5, scale=1)
             graphics.text(quote, 10, 20, wordwrap=WIDTH - 20, scale=2)
-            if answer_seen == False:
-                graphics.text('Press A for the answer, or C for a clue', 50, 120, scale=1)
-            else:
-                graphics.text('Press A for the answer, or C for to continue', 45, 120, scale=1)
+            graphics.text('Press A for the answer, or C for a clue', 50, 120, scale=1)
             graphics.update()
         if state == 'clue':
             clear()
@@ -137,16 +134,22 @@ while True:
             if state != 'answer':
                 state = 'answer'
                 changed_state = True
+                
         if button_b.read():
             if state != 'quote':
                 state = 'quote'
                 changed_state = True
+                
         if button_c.read():
             if answer_seen == False:
                 state = 'clue'
                 changed_state = True
             else:
-                ready_to_update = True
+                if state == 'answer':
+                    ready_to_update = True
+                else:
+                    state = 'clue'
+                    changed_state = True
         
         if time.time() - last_update_time > TIME_TO_UPDATE:
             ready_to_update = True

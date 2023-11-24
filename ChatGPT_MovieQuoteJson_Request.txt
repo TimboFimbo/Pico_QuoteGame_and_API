@@ -1,0 +1,32 @@
+Could you please provide a json file containing information about popular movies for a personal project?
+
+For each, I would like the movie title, year of release in brackets, director, a list of four actors from the movie, and a well-known quote from the movie.
+
+Here is an example of how I would like the final json file to look. I have only included two movies, but I would like as many as possible, please:
+
+[
+    {
+        "title": "Pulp Fiction",
+        "year": "(1994)",
+        "director": "Quentin Tarantino",
+        "stars": [
+            "John Travolta",
+            "Uma Thurman",
+            "Samuel L. Jackson",
+            "Bruce Willis"
+        ],
+        "quote": "Any of you fucking pricks move, and I'll execute every motherfucking last one of ya!"
+    },
+    {
+        "title": "The Usual Suspects",
+        "year": "(1995)",
+        "director": "Bryan Singer",
+        "stars": [
+            "Kevin Spacey",
+            "Gabriel Byrne",
+            "Chazz Palminteri",
+            "Stephen Baldwin"
+        ],
+        "quote": "The greatest trick the devil ever pulled was convincing the world he did not exist."
+    },
+]

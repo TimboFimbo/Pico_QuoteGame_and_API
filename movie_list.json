@@ -1224,18 +1224,6 @@
         "quote": "Taxi! Follow that ape!"
     },
     {
-        "title": "The Terminator",
-        "year": "(1984)",
-        "director": "James Cameron",
-        "stars": [
-            "Arnold Schwarzenegger",
-            "Linda Hamilton",
-            "Michael Biehn",
-            "Paul Winfield"
-        ],
-        "quote": "I'll be back."
-    },
-    {
         "title": "The Lord of the Rings: The Fellowship of the Ring",
         "year": "(2001)",
         "director": "Peter Jackson",
@@ -1750,18 +1738,6 @@
             "Anthony Edwards"
         ],
         "quote": "You wouldn't happen to have any animal crackers, would you?"
-    },
-    {
-        "title": "Hot Fuzz",
-        "year": "(2007)",
-        "director": "Edgar Wright",
-        "stars": [
-            "Simon Pegg",
-            "Nick Frost",
-            "Martin Freeman",
-            "Bill Nighy"
-        ],
-        "quote": "A great, big, bushy beard!"
     },
     {
         "title": "O Brother, Where Art Thou?",
@@ -3118,5 +3094,557 @@
             "Warren Clarke"
         ],
         "quote": " I know a Little German. He's sitting over there "
+    },
+    {
+        "title": "12 Monkeys",
+        "year": "(1995)",
+        "director": "Terry Gilliam",
+        "stars": [
+            "Bruce Willis",
+            "Madeleine Stowe",
+            "Brad Pitt",
+            "Christopher Plummer"
+        ],
+        "quote": "There's no right, there's no wrong, there's only popular opinion."
+    },
+    {
+        "title": "Fear and Loathing in Las Vegas",
+        "year": "(1998)",
+        "director": "Terry Gilliam",
+        "stars": [
+            "Johnny Depp",
+            "Benicio del Toro",
+            "Tobey Maguire",
+            "Ellen Barkin"
+        ],
+        "quote": "We can't stop here, this is bat country!"
+    },
+    {
+        "title": "Time Bandits",
+        "year": "(1981)",
+        "director": "Terry Gilliam",
+        "stars": [
+            "Sean Connery",
+            "John Cleese",
+            "Shelley Duvall",
+            "Ian Holm"
+        ],
+        "quote": "I am the Supreme Being, I'm not entirely dim."
+    },
+    {
+        "title": "The Fisher King",
+        "year": "(1991)",
+        "director": "Terry Gilliam",
+        "stars": [
+            "Jeff Bridges",
+            "Robin Williams",
+            "Mercedes Ruehl",
+            "Amanda Plummer"
+        ],
+        "quote": "There's three things in this world that you need: Respect for all kinds of life, a nice bowel movement on a regular basis, and a navy blazer."
+    },
+    {
+        "title": "Monty Python and the Holy Grail",
+        "year": "(1975)",
+        "director": "Terry Gilliam and Terry Jones",
+        "stars": [
+            "Graham Chapman",
+            "John Cleese",
+            "Eric Idle",
+            "Terry Gilliam"
+        ],
+        "quote": "It's just a flesh wound."
+    },
+    {
+        "title": "The Zero Theorem",
+        "year": "(2013)",
+        "director": "Terry Gilliam",
+        "stars": [
+            "Christoph Waltz",
+            "Lucas Hedges",
+            "David Thewlis",
+            "Mélanie Thierry"
+        ],
+        "quote": "Everything adds up to nothing."
+    },
+    {
+        "title": "Tideland",
+        "year": "(2005)",
+        "director": "Terry Gilliam",
+        "stars": [
+            "Jodelle Ferland",
+            "Janet McTeer",
+            "Brendan Fletcher",
+            "Jennifer Tilly"
+        ],
+        "quote": "When you're young, you don't know what you don't know."
+    },
+    {
+        "title": "Shaun of the Dead",
+        "year": "(2004)",
+        "director": "Edgar Wright",
+        "stars": [
+            "Simon Pegg",
+            "Nick Frost",
+            "Kate Ashfield",
+            "Lucy Davis"
+        ],
+        "quote": "I'm sorry, Shaun."
+    },
+    {
+        "title": "Hot Fuzz",
+        "year": "(2007)",
+        "director": "Edgar Wright",
+        "stars": [
+            "Simon Pegg",
+            "Nick Frost",
+            "Martin Freeman",
+            "Bill Nighy"
+        ],
+        "quote": "You wanna be a big cop in a small town? Fuck off up the model village."
+    },
+    {
+        "title": "The World's End",
+        "year": "(2013)",
+        "director": "Edgar Wright",
+        "stars": [
+            "Simon Pegg",
+            "Nick Frost",
+            "Martin Freeman",
+            "Rosamund Pike"
+        ],
+        "quote": "Everybody's got to live together, or we're gonna get nowhere."
+    },
+    {
+        "title": "Scott Pilgrim vs. The World",
+        "year": "(2010)",
+        "director": "Edgar Wright",
+        "stars": [
+            "Michael Cera",
+            "Mary Elizabeth Winstead",
+            "Kieran Culkin",
+            "Chris Evans"
+        ],
+        "quote": "I'm in lesbians with you."
+    },
+    {
+        "title": "Baby Driver",
+        "year": "(2017)",
+        "director": "Edgar Wright",
+        "stars": [
+            "Ansel Elgort",
+            "Lily James",
+            "Jon Hamm",
+            "Jamie Foxx"
+        ],
+        "quote": "I'm a driver. I'm a winner."
+    },
+    {
+        "title": "Home Alone",
+        "year": "(1990)",
+        "director": "Chris Columbus",
+        "stars": [
+            "Macaulay Culkin",
+            "Joe Pesci",
+            "Daniel Stern",
+            "Catherine O'Hara"
+        ],
+        "quote": "Keep the change, ya filthy animal!"
+    },
+    {
+        "title": "It's a Wonderful Life",
+        "year": "(1946)",
+        "director": "Frank Capra",
+        "stars": [
+            "James Stewart",
+            "Donna Reed",
+            "Lionel Barrymore",
+            "Henry Travers"
+        ],
+        "quote": "Every time a bell rings, an angel gets his wings."
+    },
+    {
+        "title": "A Christmas Carol",
+        "year": "(1984)",
+        "director": "Clive Donner",
+        "stars": [
+            "George C. Scott",
+            "David Warner",
+            "Susannah York",
+            "Edward Woodward"
+        ],
+        "quote": "God bless us, everyone."
+    },
+    {
+        "title": "Elf",
+        "year": "(2003)",
+        "director": "Jon Favreau",
+        "stars": [
+            "Will Ferrell",
+            "James Caan",
+            "Zooey Deschanel",
+            "Mary Steenburgen"
+        ],
+        "quote": "Santa! I know him!"
+    },
+    {
+        "title": "The Polar Express",
+        "year": "(2004)",
+        "director": "Robert Zemeckis",
+        "stars": [
+            "Tom Hanks",
+            "Daryl Sabara",
+            "Nona Gaye",
+            "Eddie Deezen"
+        ],
+        "quote": "The bell still rings for me, as it does for all who truly believe."
+    },
+    {
+        "title": "A Christmas Story",
+        "year": "(1983)",
+        "director": "Bob Clark",
+        "stars": [
+            "Peter Billingsley",
+            "Melinda Dillon",
+            "Darren McGavin",
+            "Ian Petrella"
+        ],
+        "quote": "You'll shoot your eye out, kid!"
+    },
+    {
+        "title": "National Lampoon's Christmas Vacation",
+        "year": "(1989)",
+        "director": "Jeremiah S. Chechik",
+        "stars": [
+            "Chevy Chase",
+            "Beverly D'Angelo",
+            "Randy Quaid",
+            "Juliette Lewis"
+        ],
+        "quote": "Merry Christmas, the shitter was full!"
+    },
+    {
+        "title": "The Grinch",
+        "year": "(2000)",
+        "director": "Ron Howard",
+        "stars": [
+            "Jim Carrey",
+            "Taylor Momsen",
+            "Jeffrey Tambor",
+            "Christine Baranski"
+        ],
+        "quote": "Maybe Christmas, he thought, doesn't come from a store. Maybe Christmas, perhaps, means a little bit more."
+    },
+    {
+        "title": "Love Actually",
+        "year": "(2003)",
+        "director": "Richard Curtis",
+        "stars": [
+            "Hugh Grant",
+            "Emma Thompson",
+            "Liam Neeson",
+            "Keira Knightley"
+        ],
+        "quote": "To me, you are perfect."
+    },
+    {
+        "title": "Star Wars: Episode IV - A New Hope",
+        "year": "(1977)",
+        "director": "George Lucas",
+        "stars": [
+            "Mark Hamill",
+            "Harrison Ford",
+            "Carrie Fisher",
+            "Alec Guinness"
+        ],
+        "quote": "May the Force be with you."
+    },
+    {
+        "title": "Jurassic Park",
+        "year": "(1993)",
+        "director": "Steven Spielberg",
+        "stars": [
+            "Sam Neill",
+            "Laura Dern",
+            "Jeff Goldblum",
+            "Richard Attenborough"
+        ],
+        "quote": "Life, uh, finds a way."
+    },
+    {
+        "title": "Blade Runner",
+        "year": "(1982)",
+        "director": "Ridley Scott",
+        "stars": [
+            "Harrison Ford",
+            "Rutger Hauer",
+            "Sean Young",
+            "Edward James Olmos"
+        ],
+        "quote": "I've seen things you people wouldn't believe."
+    },
+    {
+        "title": "The Terminator",
+        "year": "(1984)",
+        "director": "James Cameron",
+        "stars": [
+            "Arnold Schwarzenegger",
+            "Linda Hamilton",
+            "Michael Biehn",
+            "Paul Winfield"
+        ],
+        "quote": "I'll be back."
+    },
+    {
+        "title": "The Fifth Element",
+        "year": "(1997)",
+        "director": "Luc Besson",
+        "stars": [
+            "Bruce Willis",
+            "Milla Jovovich",
+            "Gary Oldman",
+            "Chris Tucker"
+        ],
+        "quote": "Leeloo Dallas multipass."
+    },
+    {
+        "title": "Interstellar",
+        "year": "(2014)",
+        "director": "Christopher Nolan",
+        "stars": [
+            "Matthew McConaughey",
+            "Anne Hathaway",
+            "Jessica Chastain",
+            "Michael Caine"
+        ],
+        "quote": "Love is the one thing we're capable of perceiving that transcends dimensions of time and space."
+    },
+    {
+        "title": "The Martian",
+        "year": "(2015)",
+        "director": "Ridley Scott",
+        "stars": [
+            "Matt Damon",
+            "Jessica Chastain",
+            "Kristen Wiig",
+            "Jeff Daniels"
+        ],
+        "quote": "I'm going to have to science the shit out of this."
+    },
+    {
+        "title": "War for the Planet of the Apes",
+        "year": "(2017)",
+        "director": "Matt Reeves",
+        "stars": [
+            "Andy Serkis",
+            "Woody Harrelson",
+            "Steve Zahn",
+            "Karin Konoval"
+        ],
+        "quote": "Apes together strong."
+    },
+    {
+        "title": "The Avengers",
+        "year": "(2012)",
+        "director": "Joss Whedon",
+        "stars": [
+            "Robert Downey Jr.",
+            "Chris Evans",
+            "Scarlett Johansson",
+            "Mark Ruffalo"
+        ],
+        "quote": "Avengers, assemble!"
+    },
+    {
+        "title": "Guardians of the Galaxy",
+        "year": "(2014)",
+        "director": "James Gunn",
+        "stars": [
+            "Chris Pratt",
+            "Zoe Saldana",
+            "Dave Bautista",
+            "Vin Diesel"
+        ],
+        "quote": "I am Groot."
+    },
+    {
+        "title": "The Goonies",
+        "year": "(1985)",
+        "director": "Richard Donner",
+        "stars": [
+            "Sean Astin",
+            "Josh Brolin",
+            "Jeff Cohen",
+            "Corey Feldman"
+        ],
+        "quote": "Goonies never say die!"
+    },
+    {
+        "title": "E.T. the Extra-Terrestrial",
+        "year": "(1982)",
+        "director": "Steven Spielberg",
+        "stars": [
+            "Henry Thomas",
+            "Drew Barrymore",
+            "Peter Coyote",
+            "Dee Wallace"
+        ],
+        "quote": "E.T. phone home."
+    },
+    {
+        "title": "Matilda",
+        "year": "(1996)",
+        "director": "Danny DeVito",
+        "stars": [
+            "Mara Wilson",
+            "Danny DeVito",
+            "Rhea Perlman",
+            "Embeth Davidtz"
+        ],
+        "quote": "I'm smart, you're dumb. I'm big, you're little."
+    },
+    {
+        "title": "The Little Mermaid",
+        "year": "(1989)",
+        "director": "Ron Clements, John Musker",
+        "stars": [
+            "Jodi Benson",
+            "Christopher Daniel Barnes",
+            "Pat Carroll",
+            "Samuel E. Wright"
+        ],
+        "quote": "Part of your world."
+    },
+    {
+        "title": "The Lion King",
+        "year": "(1994)",
+        "director": "Roger Allers, Rob Minkoff",
+        "stars": [
+            "Matthew Broderick",
+            "Jeremy Irons",
+            "James Earl Jones",
+            "Moira Kelly"
+        ],
+        "quote": "Hakuna Matata."
+    },
+    {
+        "title": "Aladdin",
+        "year": "(1992)",
+        "director": "Ron Clements, John Musker",
+        "stars": [
+            "Scott Weinger",
+            "Robin Williams",
+            "Linda Larkin",
+            "Jonathan Freeman"
+        ],
+        "quote": "A whole new world."
+    },
+    {
+        "title": "Beauty and the Beast",
+        "year": "(1991)",
+        "director": "Gary Trousdale, Kirk Wise",
+        "stars": [
+            "Paige O'Hara",
+            "Robbie Benson",
+            "Richard White",
+            "Jerry Orbach"
+        ],
+        "quote": "Tale as old as time, song as old as rhyme."
+    },
+    {
+        "title": "Mulan",
+        "year": "(1998)",
+        "director": "Tony Bancroft, Barry Cook",
+        "stars": [
+            "Ming-Na Wen",
+            "Eddie Murphy",
+            "BD Wong",
+            "Lea Salonga"
+        ],
+        "quote": "The flower that blooms in adversity is the most rare and beautiful of all."
+    },
+    {
+        "title": "Finding Nemo",
+        "year": "(2003)",
+        "director": "Andrew Stanton, Lee Unkrich",
+        "stars": [
+            "Albert Brooks",
+            "Ellen DeGeneres",
+            "Alexander Gould",
+            "Willem Dafoe"
+        ],
+        "quote": "Just keep swimming."
+    },
+    {
+        "title": "The Incredibles",
+        "year": "(2004)",
+        "director": "Brad Bird",
+        "stars": [
+            "Craig T. Nelson",
+            "Holly Hunter",
+            "Samuel L. Jackson",
+            "Jason Lee"
+        ],
+        "quote": "No capes!"
+    },
+    {
+        "title": "Frozen",
+        "year": "(2013)",
+        "director": "Chris Buck, Jennifer Lee",
+        "stars": [
+            "Kristen Bell",
+            "Idina Menzel",
+            "Jonathan Groff",
+            "Josh Gad"
+        ],
+        "quote": "Let it go, let it go!"
+    },
+    {
+        "title": "Zootopia",
+        "year": "(2016)",
+        "director": "Byron Howard, Rich Moore",
+        "stars": [
+            "Ginnifer Goodwin",
+            "Jason Bateman",
+            "Idris Elba",
+            "Jenny Slate"
+        ],
+        "quote": "Try everything."
+    },
+    {
+        "title": "Coco",
+        "year": "(2017)",
+        "director": "Lee Unkrich, Adrian Molina",
+        "stars": [
+            "Anthony Gonzalez",
+            "Gael García Bernal",
+            "Benjamin Bratt",
+            "Alanna Ubach"
+        ],
+        "quote": "Remember me."
+    },
+    {
+        "title": "Moana",
+        "year": "(2016)",
+        "director": "Ron Clements, John Musker",
+        "stars": [
+            "Auli'i Cravalho",
+            "Dwayne Johnson",
+            "Rachel House",
+            "Temuera Morrison"
+        ],
+        "quote": "How far I'll go."
+    },
+    {
+        "title": "Ratatouille",
+        "year": "(2007)",
+        "director": "Brad Bird, Jan Pinkava",
+        "stars": [
+            "Patton Oswalt",
+            "Ian Holm",
+            "Lou Romano",
+            "Janeane Garofalo"
+        ],
+        "quote": "Anyone can cook."
     }
 ]

@@ -25,3 +25,5 @@ The Inky Pack appliction was adapted from the Pimoroni 'quote of the day' exampl
 Before use, check the comments in the scripts and replace the IP address and movie list file location where noted.
 
 Finally, this is just a test for now, as I'm currently a little hooked on the Pico and some of its add-ons. Now that this is working, I'm going to add more movies to the list and more clues to display for each. Oh, and the scraper currently can't handle films with multiple directors, so I'll fix that if it needs to be run again. For now, I just fixed the few incorrect movie details by hand.
+
+EDIT: Okay, I think I'm just beginning to understand what everyone else has been accepting for a while - A.I. can be really useful for content generation. None of the code is machine-generated, but I got ChatGPT to produce a number of new movies for the list, in the same JSON format as the existing ones. I've included the prompt I used - ask it to continue with a specific genre, decade, director, actor, or any other detail you like to get more!
