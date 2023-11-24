@@ -30,6 +30,9 @@ state = 'quote'
 changed_state = True
 ready_to_update = True
 last_update_time = time.time()
+answer_seen = False
+last_clue = 100
+current_clue = last_clue
 
 def clear():
     graphics.set_pen(15)
@@ -92,6 +95,7 @@ while True:
         last_update_time = time.time()
         changed_state = True
         state = 'quote'
+        answer_seen = False
         
     if changed_state == True:
         changed_state  = False
@@ -100,26 +104,32 @@ while True:
             graphics.set_pen(0)
             graphics.text('Which movie is this quote from?...', 60, 5, scale=1)
             graphics.text(quote, 10, 20, wordwrap=WIDTH - 20, scale=2)
-            graphics.text('Press A for the answer, or C for a clue', 50, 120, scale=1)
+            if answer_seen == False:
+                graphics.text('Press A for the answer, or C for a clue', 50, 120, scale=1)
+            else:
+                graphics.text('Press A for the answer, or C for to continue', 45, 120, scale=1)
             graphics.update()
         if state == 'clue':
             clear()
-            clue_num = random.randrange(0, len(stars) + 1)
+            while current_clue == last_clue:
+                current_clue = random.randrange(0, len(stars) + 1)
+            last_clue = current_clue
             graphics.set_pen(0)
             graphics.text("Here's a clue for you...", 85, 5, scale=1)
-            if clue_num == len(stars):
+            if current_clue == len(stars):
                 graphics.text(directed_by, 15, 40, wordwrap=WIDTH - 20, scale=2)
             else:
-                graphics.text("Featuring " + stars[clue_num], 15, 40, wordwrap=WIDTH - 20, scale=2)
-            graphics.text('Press A for the answer, or B to go back', 50, 120, scale=1)
+                graphics.text("Featuring " + stars[current_clue], 15, 40, wordwrap=WIDTH - 20, scale=2)
+            graphics.text('Press A for the answer, B to go back, or C for another clue', 10, 120, scale=1)
             graphics.update()
         if state == 'answer':
             clear()
             graphics.set_pen(0)
             graphics.text("Here's the answer...", 90, 5, scale=1)
             graphics.text(title_year, 15, 40, wordwrap=WIDTH - 20, scale=2)
-            graphics.text('Press B to go back', 95, 120, scale=1)
+            graphics.text('Press B to go back, or C to continue', 55, 120, scale=1)
             graphics.update()
+            answer_seen = True
     
     # checks for button presses to change states, and updates quotes based on time
     if changed_state == False:
@@ -132,8 +142,11 @@ while True:
                 state = 'quote'
                 changed_state = True
         if button_c.read():
-            state = 'clue'
-            changed_state = True
+            if answer_seen == False:
+                state = 'clue'
+                changed_state = True
+            else:
+                ready_to_update = True
         
         if time.time() - last_update_time > TIME_TO_UPDATE:
             ready_to_update = True
