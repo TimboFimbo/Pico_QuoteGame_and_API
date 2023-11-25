@@ -3646,5 +3646,197 @@
             "Janeane Garofalo"
         ],
         "quote": "Anyone can cook."
+    },
+    {
+        "title": "2001: A Space Odyssey",
+        "year": "(1968)",
+        "director": "Stanley Kubrick",
+        "stars": [
+            "Keir Dullea",
+            "Gary Lockwood",
+            "William Sylvester",
+            "Douglas Rain"
+        ],
+        "quote": "Open the pod bay doors, HAL."
+    },
+    {
+        "title": "Full Metal Jacket",
+        "year": "(1987)",
+        "director": "Stanley Kubrick",
+        "stars": [
+            "Matthew Modine",
+            "R. Lee Ermey",
+            "Vincent D'Onofrio",
+            "Adam Baldwin"
+        ],
+        "quote": "This is my rifle. There are many like it, but this one is mine."
+    },
+    {
+        "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+        "year": "(1964)",
+        "director": "Stanley Kubrick",
+        "stars": [
+            "Peter Sellers",
+            "George C. Scott",
+            "Sterling Hayden",
+            "Slim Pickens"
+        ],
+        "quote": "Gentlemen, you can't fight in here! This is the War Room."
+    },
+    {
+        "title": "Eyes Wide Shut",
+        "year": "(1999)",
+        "director": "Stanley Kubrick",
+        "stars": [
+            "Tom Cruise",
+            "Nicole Kidman",
+            "Sydney Pollack",
+            "Todd Field"
+        ],
+        "quote": "I do not say this lightly, but even you have to admit, you have a very pretty pussy."
+    },
+    {
+        "title": "Barry Lyndon",
+        "year": "(1975)",
+        "director": "Stanley Kubrick",
+        "stars": [
+            "Ryan O'Neal",
+            "Marisa Berenson",
+            "Patrick Magee",
+            "Hardy Krüger"
+        ],
+        "quote": "My dear, I find that the moment I let a woman make friends with me, she becomes jealous, exacting, and a damned nuisance. Something has to be done about that."
+    },
+    {
+        "title": "Paths of Glory",
+        "year": "(1957)",
+        "director": "Stanley Kubrick",
+        "stars": [
+            "Kirk Douglas",
+            "Ralph Meeker",
+            "Adolphe Menjou",
+            "George Macready"
+        ],
+        "quote": "Gentlemen of the court, there are times that I'm ashamed to be a member of the human race and this is one such occasion."
+    },
+    {
+        "title": "Lolita",
+        "year": "(1962)",
+        "director": "Stanley Kubrick",
+        "stars": [
+            "James Mason",
+            "Sue Lyon",
+            "Shelley Winters",
+            "Peter Sellers"
+        ],
+        "quote": "Lolita, light of my life, fire of my loins."
+    },
+    {
+        "title": "The Killing",
+        "year": "(1956)",
+        "director": "Stanley Kubrick",
+        "stars": [
+            "Sterling Hayden",
+            "Coleen Gray",
+            "Vince Edwards",
+            "Jay C. Flippen"
+        ],
+        "quote": "You like money. You've got a great big dollar sign there where most women have a heart."
+    },
+    {
+        "title": "The NeverEnding Story",
+        "year": "(1984)",
+        "director": "Wolfgang Petersen",
+        "stars": [
+            "Barret Oliver",
+            "Noah Hathaway",
+            "Tami Stronach",
+            "Moses Gunn"
+        ],
+        "quote": "The Nothing is spreading."
+    },
+    {
+        "title": "Honey, I Shrunk the Kids",
+        "year": "(1989)",
+        "director": "Joe Johnston",
+        "stars": [
+            "Rick Moranis",
+            "Matt Frewer",
+            "Marcia Strassman",
+            "Kristine Sutherland"
+        ],
+        "quote": "We're now a quarter of an inch tall, and 64 feet from the house."
+    },
+    {
+        "title": "The Land Before Time",
+        "year": "(1988)",
+        "director": "Don Bluth",
+        "stars": [
+            "Pat Hingle",
+            "Gabriel Damon",
+            "Candace Hutson",
+            "Judith Barsi"
+        ],
+        "quote": "Littlefoot, let your heart guide you. It whispers, so listen closely."
+    },
+    {
+        "title": "Who Framed Roger Rabbit",
+        "year": "(1988)",
+        "director": "Robert Zemeckis",
+        "stars": [
+            "Bob Hoskins",
+            "Christopher Lloyd",
+            "Joanna Cassidy",
+            "Charles Fleischer"
+        ],
+        "quote": "I'm not bad. I'm just drawn that way."
+    },
+    {
+        "title": "Hook",
+        "year": "(1991)",
+        "director": "Steven Spielberg",
+        "stars": [
+            "Dustin Hoffman",
+            "Robin Williams",
+            "Julia Roberts",
+            "Bob Hoskins"
+        ],
+        "quote": "Bangarang!"
+    },
+    {
+        "title": "Beetlejuice",
+        "year": "(1988)",
+        "director": "Tim Burton",
+        "stars": [
+            "Alec Baldwin",
+            "Geena Davis",
+            "Michael Keaton",
+            "Winona Ryder"
+        ],
+        "quote": "It's showtime!"
+    },
+    {
+        "title": "The Addams Family",
+        "year": "(1991)",
+        "director": "Barry Sonnenfeld",
+        "stars": [
+            "Anjelica Huston",
+            "Raul Julia",
+            "Christopher Lloyd",
+            "Christina Ricci"
+        ],
+        "quote": "They're creepy and they're kooky."
+    },
+    {
+        "title": "Jumanji",
+        "year": "(1995)",
+        "director": "Joe Johnston",
+        "stars": [
+            "Robin Williams",
+            "Kirsten Dunst",
+            "Bonnie Hunt",
+            "Jonathan Hyde"
+        ],
+        "quote": "What year is it?!"
     }
 ]

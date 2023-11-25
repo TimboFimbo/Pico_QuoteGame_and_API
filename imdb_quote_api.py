@@ -20,7 +20,6 @@ with open('/home/timbo/src/Uvicorn/Pico_QuoteGame_and_API/movie_list.json', 'r')
     movie_json = json.load(infile)
 
 for movie in movie_json:
-    print(movie['stars'][0])
     star_list = []
     for star in movie['stars']:
         star_list.append(star)

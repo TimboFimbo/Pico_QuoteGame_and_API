@@ -23,13 +23,15 @@ WIDTH, HEIGHT = graphics.get_bounds()
 # change the ip address to that of the computer running the api
 ENDPOINT = 'http://192.168.0.119:8000/random_movie'
 # the number of seconds until the next quote is displayed
-TIME_TO_UPDATE = 300
+TIME_TO_UPDATE = 600
+BUTTON_WAIT_TIME = 30
 
 printed_connection_status = False
 state = 'quote'
 changed_state = True
 ready_to_update = True
 last_update_time = time.time()
+last_button_time = time.time()
 answer_seen = False
 last_clue = 100
 current_clue = last_clue
@@ -93,6 +95,7 @@ while True:
         
         ready_to_update = False
         last_update_time = time.time()
+        last_button_time = time.time()
         changed_state = True
         state = 'quote'
         answer_seen = False
@@ -131,16 +134,19 @@ while True:
     # checks for button presses to change states, and updates quotes based on time
     if changed_state == False:
         if button_a.read():
+            last_button_time = time.time()
             if state != 'answer':
                 state = 'answer'
                 changed_state = True
                 
         if button_b.read():
+            last_button_time = time.time()
             if state != 'quote':
                 state = 'quote'
                 changed_state = True
                 
         if button_c.read():
+            last_button_time = time.time()
             if answer_seen == False:
                 state = 'clue'
                 changed_state = True
@@ -151,7 +157,7 @@ while True:
                     state = 'clue'
                     changed_state = True
         
-        if time.time() - last_update_time > TIME_TO_UPDATE:
+        if (time.time() - last_update_time > TIME_TO_UPDATE) and (time.time() - last_button_time > BUTTON_WAIT_TIME):
             ready_to_update = True
         
         time.sleep(0.1)
